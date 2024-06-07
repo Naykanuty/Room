@@ -1,0 +1,419 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.body-wrapper {
+    width: 1440px;
+    height: 11082px;
+}
+
+/* -------------------------header----------------------- */
+
+/* --header__gray-- */
+
+.header__gray {
+    height: 40px;
+    display: flex;
+    background-color: #F4F4F4;
+    align-items: center;
+    justify-content: end;
+}
+
+.gray__text {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 318px;
+    margin-right: 25px;
+    color: #AAAAAA;
+    font-size: 12px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.gray__text__img {
+    display: flex;
+}
+
+/* --home-- */
+
+.home-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 99px;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    position: relative;
+}
+
+.logo-and-center {
+    width: 723px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 120px;
+}
+
+.and__center {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    color: #000000;
+}
+
+.center__right {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 202px;
+    right: 31px;
+}
+
+.center__right div {
+    display: flex;
+    align-items: center;
+}
+
+.center__right div p {
+    margin-left: 10px;
+    color: #000000;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.logotype {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.logotype:hover,
+.logotype:focus {
+    transform: scale(1.1);
+}
+
+/* -------------------------main----------------------- */
+
+.imgsolo1 {
+    width: 1327px;
+    height: 746px;
+    margin-left: 57px;
+    margin-top: 49px;
+}
+
+/* ------------text_main------------ */
+.text {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 82px;
+}
+
+.text-black {
+    color: #1A1A1A;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.text-gray {
+    margin-left: 136px;
+    color: #AAAAAA;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+/*--------------main_picture------------*/
+
+.pic-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.pic1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic1 img {
+    width: 588px;
+    height: 412px;
+}
+
+.pt1 {
+    font-size: 24px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    margin-top: 9px;
+    color: #1A1A1A;
+}
+
+.pic1-marg-left {
+    margin-left: 24px;
+}
+
+.pic1-marg-top {
+    margin-top: 32px;
+}
+
+/*---------logoblock--------*/
+
+.logoblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 247px;
+}
+
+.logo-text1 {
+    color: #1A1A1A;
+    font-size: 48px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.logo-text2 {
+    margin-top: 27px;
+    color: #4A4A4A;
+    font-size: 24px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+/* -----------grid-container----------- */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(3, 150px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.logo {
+    max-width: 60%;
+}
+
+/*---------mainPARTY------*/
+
+.party-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+}
+
+.party {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    margin-top: 24px;
+}
+
+.imgsolo2 {
+    display: flex;
+    justify-content: center;
+    width: 1344px;
+    height: 736px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: #46856E;
+}
+
+.gray {
+    background-color: #E5E5E5;
+}
+
+.arrow-wrapper {
+    position: relative;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 328px;
+    right: 56px;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 328px;
+    left: 56px;
+    transform: rotate(180deg);
+}
+
+/* -----pokolyan----- */
+
+#pokolyan {
+    margin-left: 175px;
+    margin-top: 83px;
+}
+
+.text-black2 {
+    color: #1A1A1A;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.text-green {
+    color: #46856E;
+    font-size: 14px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+/* -------cards------- */
+
+#cards {
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-wrapper {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 341px;
+    height: 368px;
+}
+
+.card-marg {
+    margin-left: 25px;
+}
+
+.card__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card__title {
+    position: absolute;
+    left: 18px;
+    top: 172px;
+    font-size: 24px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    color: #1A1A1A;
+}
+
+.card__text {
+    position: absolute;
+    top: 214px;
+    left: 18px;
+    font-size: 16px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    color: #AAAAAA;
+    line-height: 24px;
+}
+
+/* -------blue fon-------- */
+
+#blue-fon {
+    position: relative;
+    margin-top: 227px;
+    margin-left: 50px;
+    width: 1340px;
+    height: 800px;
+    background-image: url("../img/blackwoman.png");
+}
+
+.blue-fon__wrapper {
+    position: absolute;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 120px;
+    left: 185px;
+}
+
+.blue-font__block1 {
+    height: 145.31px;
+}
+
+.blue-font__block2 {
+    height: 155.45px;
+}
+
+.blue-font__block3 {
+    height: 135.22px;
+}
+
+.stars {
+    width: 117px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.block__text {
+    font-size: 24px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    color: #FFFFFF;
+    line-height: 32px;
+    margin-top: 7px;
+}
+
+.block__img {
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.blue-fon__text {
+    font-size: 16px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 129px;
+    left: 195px;
+}
+
+/* -------just-text------- */
+
+#just-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.just-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-text__text1 {
+    font-size: 46px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    line-height: 52px;
+    color: #AAAAAA;
+}
+
+.just-text__text2 {
+    margin-top: 25px;
+    font-size: 46px;
+    font-family: 'robotoregular', Arial, sans-serif;
+    color: #000000;
+}
